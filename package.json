@@ -1,0 +1,43 @@
+{
+  "name": "data-agreement",
+  "version": "1.0.0",
+  "description": "A smart contract for data agreement",
+  "main": "js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:testnet": "truffle deploy --network goerli"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.13",
+    "chai": "^4.3.6",
+    "ethereumjs-abi": "^0.6.8",
+    "ethers": "5.6.4",
+    "ganache-core": "^2.13.2",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "2.0.13",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "dotenv": "^8.2.0",
+    "ganache": "^7.4.1",
+    "jest": "^24.9.0",
+    "truffle": "^5.1.14-nodeLTS.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peopledata/data-agreement.git"
+  },
+  "author": "jerry.zhang<jerry.zhang.bill@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peopledata/data-agreement/issues"
+  },
+  "homepage": "https://github.com/peopledata/data-agreement#readme"
+}
