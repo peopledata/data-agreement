@@ -1,5 +1,5 @@
 <h1 align="center">
-    Data Agreements (DEXA) Smart Contracts
+    A Smart Contracts for data agreement.
 </h1>
 
 <p align="center">
