@@ -38,6 +38,7 @@ Follow the instructions as given below:
 2. `cd` in to the cloned folder.
 3. npm install
 4. npm run deploy:testnet //this contract will deployed on `Goerli`.
+5. contract address will displayed on terminal.
 
 
 ## Contributing

@@ -1,5 +1,9 @@
 
 const DA = artifacts.require("./DA.sol")
+contractOwner = '0x0a8ba09a8ecaa62073777916ea0034f0d04b29e6'
+secondAddress = '0xe4040e9a6db914e208afe9320304fd57a54e172b'
+thirdAddress = '0xb8A41B640e2Bba6d9Cb4A4555a5A8386039556Df'
+
 
 contract('DA', ([contractOwner, secondAddress, thirdAddress]) => {
   let DA
