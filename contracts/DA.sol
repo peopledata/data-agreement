@@ -122,16 +122,16 @@ contract DA {
         return token;
     }
 
-    /// @dev Emit data agreement did:mydata identifier after finalisation
-    /// @param _did: did:mydata identifier for data agreement
+    /// @dev Emit data agreement did:peopledata identifier after finalisation
+    /// @param _did: did:peopledata identifier for data agreement
     function emitDADID(string memory _did) public {
         require(isMember(msg.sender), "Not member of whitelist.");
 
         emit DAFinalised(msg.sender, _did);
     }
 
-    /// @dev Emit data disclosure agreement did:mydata identifier after finalisation
-    /// @param _did: did:mydata identifier for data disclosure agreement
+    /// @dev Emit data disclosure agreement did:peopledata identifier after finalisation
+    /// @param _did: did:peopledata identifier for data disclosure agreement
     function emitDDADID(string memory _did) public {
         require(isMember(msg.sender), "Not member of whitelist.");
 
